@@ -1,0 +1,202 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* font-size: 0px; */
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.bg-dark {
+  background-color: #1e1f26;
+}
+
+.border-whatsapp {
+  border:1px solid #20c967;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.border-whatsapp:hover {
+  background-color: #20c967;
+  color: white;
+}
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.font-size-medium {
+  font-size: 22px;
+}
+
+.font-size-sub {
+  font-family:font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+
+.font-personalized-movil {
+  font-size: 66px;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-flex-end {
+  justify-content: flex-end;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.mx-0 {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.mx-1 {
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.mx-2 {
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.mx-3 {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.mx-4 {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.mx-5 {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-menos-center {
+  margin-top: -55px;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.my-4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-5 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.text-white, li a {
+  color: white;
+}
+
+.text-greenlight {
+  color:#20c997;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: right;
+}
+
+.text-24 {
+  line-height: 1.3;
+  color: rgba(222, 227, 228, 0.6);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.title-h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 21px;
+}
+
+.text-paragrap {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.text-decoration-0 {
+  text-decoration: none;
+}
+
+.p-relative {
+  position: relative;
+  
+}
+
+.p.absolute {
+  position:absolute;
+}
+
+.p-bg-absolute-dark {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.40);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.programador-principal {
+  width: 100%;
+  height: 520px;
+  background-color: #c738385d;
+  background-image: url("../img/personas-programando-imagen-de-fondo-principal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sub-line {
+  border-bottom:5px solid #20c997;
+}
+.border-small-green {
+  width: 100px;
+  display: block;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
