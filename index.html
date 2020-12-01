@@ -6,6 +6,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <script src="./assets/js/principal.js"></script>
   <title>My Portfolio</title>
 </head>
 <body>
@@ -14,15 +15,19 @@
       <h3 class="title-h1">Yauris Carrillo</h3>
       <div class="d-flex justify-content-space-around mt-10">
         <a href="https://www.facebook.com/" class="text-white"><i class="fab fa-facebook-f mb-10"></i></a>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+        
         <i class="fab fa-instagram mb-10"></i>
         <i class="fab fa-twitter mb-10"></i>
-        <i class="fas fa-bars font-size-medium mb-10"></i>
+        <a href="#" onclick="showMenu()"><i class="fas fa-bars font-size-medium mb-10 "></i></a>
+        <ul id="Menunav" class="hidden">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#"></a>What I Do</li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Testimonial</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </div>
     </nav>
   </header>
@@ -57,6 +62,6 @@
     <div class="my-4">
       <h2 class="text-center">I am a full stack web developer <span class="text-greenlight">Yauris Carrillo</span></h2>
     </div>
-    asfas
+    
 </body>
 </html>
