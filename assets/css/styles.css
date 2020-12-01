@@ -23,8 +23,19 @@
   background-color: #20c967;
   color: white;
 }
+
+.container {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .d-inline-block {
   display: inline-block;
+}
+
+.d-block {
+  display: block;
 }
 
 .d-flex {
@@ -128,6 +139,18 @@ ul.hidden {
 .my-5 {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.menu-list li a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-family:'Open Sans', sans-serif;
+  border-bottom: 1px solid white;
+}
+
+.menu-list li a:hover {
+  color:#20c997;
 }
 
 .text-white, li a {
