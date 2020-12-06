@@ -18,6 +18,14 @@ p {
   align-items: center;
 }
 
+.badge {
+	font-family: 'Poppins', sans-serif;
+	background-color: #20c967;
+	padding: 3px;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
 .bg-dark {
   background-color: #1e1f26;
 }
@@ -283,6 +291,10 @@ ul.hidden {
   color:#20c997;
 }
 
+.text-red {
+	color: #dc3545;
+}
+
 .text-center {
   text-align: center;
 }
@@ -358,6 +370,14 @@ ul.hidden {
   background-size: cover;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
 .pt-1 {
   padding-top: 0.25rem;
 }
@@ -387,6 +407,10 @@ ul.hidden {
 
 .sub-line-contact {
 	border-bottom: 1px solid #eaeaea;
+}
+
+.sub-line-summary {
+	border: 1px solid #eaeaea;
 }
 
 .sub-title {
@@ -491,7 +515,7 @@ ul.hidden {
 		font-size: 90px;
 	}
 
-	.mt-menos-center-sm {
+	.mt-menos-center-md {
 		margin-top: -80px;
 	}
 	
