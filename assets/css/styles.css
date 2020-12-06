@@ -5,6 +5,10 @@
   /* font-size: 0px; */
 }
 
+body {
+	font-family:'Open Sans', sans-serif;
+}
+
 .align-items-center {
   align-items: center;
 }
@@ -96,6 +100,10 @@
 
 .d-flex {
   display: flex;
+}
+
+div ul {
+	list-style: none;
 }
 
 .font-size-medium {
@@ -236,7 +244,6 @@ ul.hidden {
 .title-h1 {
   font-family: 'Poppins', sans-serif;
 	font-size: 21px;
-	text-align: center;
 }
 
 .text-paragrap {
@@ -310,6 +317,12 @@ ul.hidden {
 .sub-line {
   border-bottom:5px solid #20c997;
 }
+
+.sub-title {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
 .border-small-green {
   width: 100px;
   display: block;
@@ -331,7 +344,6 @@ ul.hidden {
 		font-size: 21px;
 		text-align: left;
 	}
-	
 	
 	.col-sm-auto {
 		width: auto;
@@ -441,6 +453,18 @@ ul.hidden {
 	
 	.col-md-12 {
 		width: 100%;
+	}
+
+	.text-right-md {
+		text-align: right;
+	}
+
+	.text-left-md {
+		text-align: left;
+	}
+
+	.menu-list li a {
+		border-bottom: none;
 	}
 }
 
