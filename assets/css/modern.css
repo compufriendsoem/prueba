@@ -1,0 +1,10 @@
+.img-ecommerce {
+  width: 100%;
+  height: 300px;
+  box-sizing: border-box;
+  border: 1px solid red;
+  background-color: #c738385d;
+  background-image: url("../img/ecommerce.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
