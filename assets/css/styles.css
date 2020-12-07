@@ -150,6 +150,35 @@ div ul {
 	color: #20c997;
 }
 
+.img-ecommerce {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px red;
+  background-color: #1a17da7e;
+  background-image: url("../img/ecommerce.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-ecommerce:hover:before{
+  content: "Tienda Ecommerce";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 ul.hidden {
   display: none;
 }
@@ -353,8 +382,8 @@ ul.hidden {
 }
 
 .p-bg-absolute-dark {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.40);
+  /*position: absolute;
+  background-color: rgba(0, 0, 0, 0.40);*/
   top: 0;
   bottom: 0;
   left: 0;
