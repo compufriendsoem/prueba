@@ -133,6 +133,10 @@ p {
   display: flex;
 }
 
+.d-flex-inline {
+  display: inline-flex;
+}
+
 div ul {
 	list-style: none;
 }
