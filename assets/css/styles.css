@@ -150,6 +150,20 @@ div ul {
   font-size: 66px;
 }
 
+input, textarea {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 18px;
+}
+
+textarea {
+	min-height: 150px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+
 .icon-greenlight {
 	color: #20c997;
 }
@@ -384,15 +398,14 @@ ul.hidden {
   
 }
 
-.z1 {
-	position: fixed;
-	margin-top: -1.5px;
-	width: 100%;
-	z-index: 99;
-}
-
 .p.absolute {
   position:absolute;
+}
+
+.p-sticky {
+	position: sticky;
+	top:0px;
+	z-index: 5;
 }
 
 .p-bg-absolute-dark {
@@ -442,6 +455,18 @@ ul.hidden {
 .py-3 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.Sending {
+	padding: 10px;
+	margin-top: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.82);
+}
+
+.Sending:hover {
+	background-color: #1e1f26;
 }
 
 .sub-line {

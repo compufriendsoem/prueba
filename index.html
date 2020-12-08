@@ -11,7 +11,7 @@
 </head>
 <body>
 
-  <header class="bg-dark border-menu">
+  <header class="bg-dark border-menu p-sticky">
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-6">
@@ -21,38 +21,29 @@
           <a href="https://www.facebook.com/" class="text-white mx-3"><i class="fab fa-facebook-f"></i></a>
           <a href="#"><i class="fab fa-instagram text-white"></i></a>  
           <a href="#"><i class="fab fa-twitter text-white mx-3"></i></a>
-          <a href="#" onclick="showMenu()"><i class="fas fa-bars font-size-medium menu-hide-sm z1 text-white"></i></a>
+          <a href="#" onclick="showMenu()"><i class="fas fa-bars font-size-medium menu-hide-sm text-white"></i></a>
         </div>
-        <!--
-        <ul id="Menunav" class="hidden menu-list">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">What I Do</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Testimonial</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>-->
+        <nav class="bg-dark">
+          <div class="container">
+            <div class="row">
+              <ul id="Menunav" class="hidden menu-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">What I Do</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
     </div>
     
   </header>
 
-  <nav class="bg-dark">
-    <div class="container">
-      <div class="row">
-        <ul id="Menunav" class="hidden menu-list">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">What I Do</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Testimonial</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+ 
   
   <!-- =================================
     background first
@@ -345,10 +336,11 @@
             <p>ciudad: <span>Villavicencio - meta</span></p>            
           </div>
           <div class="col-12 col-sm-9 col-md-9">
-            <form action="" class="d-flex">
+            <form action="" class="">
               <input type="text" placeholder="Name">
               <input type="email" placeholder="Email">
               <textarea class="d-inline-bloc" placeholder="Tell us more about your needs..."></textarea>
+              <input type="button" value="Send" class="Sending bg-dark text-white">
             </form>
           </div>
         </div>
